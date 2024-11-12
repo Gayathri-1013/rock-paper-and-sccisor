@@ -1,0 +1,20 @@
+#python project#1- rock paper sccicors game:
+#my own project but some error is there
+import random
+l=[0,1,2]
+computer=random.choice(l)
+print(computer)
+user=int(input("ENTER ANY NUMBER B/W 0,1,2(0-rock,1-paper,2-siccors) :"))
+if user>=3 or user < 0:
+    print("INVALID NUMBER") 
+if user==computer:
+    print("IT IS DRAW")
+elif computer>user:
+        print("YOU LOST THE GAME")
+elif user>computer:
+        print("YOU WON THE GAME") 
+
+elif user==0 & computer==2:
+        print("YOU WON THE GAME")
+elif user==2 & computer==0:
+        print("YOU WON THE GAME")
